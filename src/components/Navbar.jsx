@@ -18,12 +18,12 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
+} from "../components/ui/dialog";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Blogs", href: "#", current: false },
-  { name: "Form", href: "#", current: false },
+  { name: "Form", href: "/form", current: false },
 ];
 
 function classNames(...classes) {

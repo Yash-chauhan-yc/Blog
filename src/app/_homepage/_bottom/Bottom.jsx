@@ -95,9 +95,9 @@
 
 "use client";
 import React, { useState } from "react";
-import { Card } from "@/components/Card";
+import { Card } from "../../../components/Card";
 import { Button } from "@headlessui/react";
-import { blogData } from "@/lib/dummyData";
+import { blogData } from "../../../lib/dummyData";
 
 export const Bottom = () => {
   const [category, setCategory] = useState(blogData.categories[0].name); // Default to the first category

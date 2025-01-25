@@ -28,7 +28,7 @@ export const Card = ({ imageSrc, title, description, category, id }) => {
       </Link>
 
       <div className="flex gap-3 p-4 justify-end">
-        <TwitterShareButton url={`/blog/${id}`}>
+        <TwitterShareButton url={`http://localhost:3000/blog/${id}?category=Web+Development`}>
           <TwitterIcon size={32} round={true} />
         </TwitterShareButton>
         <WhatsappShareButton url={`/blog/${id}`}>
